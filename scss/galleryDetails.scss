@@ -1,0 +1,197 @@
+.galleryDetails {
+  width: 1280px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  .galleryDetailHero {
+    width: 980px;
+    height: 400px;
+    margin: 0 auto;
+
+    .firstGalleryHero {
+      width: 980px;
+      height: 400px;
+      background-image: linear-gradient(
+          to right,
+          rgba(255, 209, 64, 0.7),
+          rgba(255, 209, 64, 0.7)
+        ),
+        url(../images/gallery/1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .galleryDetailCallout {
+        width: 100%;
+        color: #ffd140;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-shadow: 5px 5px 6px #000;
+        padding-top: 100px;
+
+        h1 {
+          font-size: 300px;
+          font-family: GillSans;
+        }
+
+        h2 {
+          font-size: 140px;
+          font-family: GillSans;
+        }
+      }
+    }
+
+    .secondGalleryHero {
+      width: 980px;
+      height: 400px;
+      background-image: linear-gradient(
+          to right,
+          rgba(238, 67, 103, 0.7),
+          rgba(238, 67, 103, 0.7)
+        ),
+        url(../images/gallery/2.jpeg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .galleryDetailCallout {
+        width: 100%;
+        color: #ee4367;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-shadow: 5px 5px 6px #000;
+        padding-top: 100px;
+
+        h1 {
+          font-size: 300px;
+          font-family: GillSans;
+        }
+
+        h2 {
+          font-size: 140px;
+          font-family: GillSans;
+        }
+      }
+    }
+
+    .thirdGalleryHero {
+      width: 980px;
+      height: 400px;
+      background-image: linear-gradient(
+          to right,
+          rgba(8, 173, 105, 0.7),
+          rgba(8, 173, 105, 0.7)
+        ),
+        url(../images/gallery/3.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .galleryDetailCallout {
+        width: 100%;
+        color: #08ad69;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-shadow: 5px 5px 6px #000;
+        padding-top: 100px;
+
+        h1 {
+          font-size: 300px;
+          font-family: GillSans;
+        }
+
+        h2 {
+          font-size: 140px;
+          font-family: GillSans;
+        }
+      }
+    }
+
+    .fourthGalleryHero {
+      width: 980px;
+      height: 400px;
+      background-image: linear-gradient(
+          to right,
+          rgba(84, 13, 110, 0.7),
+          rgba(84, 13, 110, 0.7)
+        ),
+        url(../images/gallery/4.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .galleryDetailCallout {
+        width: 100%;
+        color: #540d6e;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-shadow: 5px 5px 6px #000;
+        padding-top: 100px;
+
+        h1 {
+          font-size: 300px;
+          font-family: GillSans;
+        }
+
+        h2 {
+          font-size: 130px;
+          font-family: GillSans;
+        }
+      }
+    }
+
+    .fifthGalleryHero {
+      width: 980px;
+      height: 400px;
+      background-image: linear-gradient(
+          to right,
+          rgba(59, 206, 171, 0.7),
+          rgba(59, 206, 171, 0.7)
+        ),
+        url(../images/gallery/5.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .galleryDetailCallout {
+        width: 100%;
+        color: #3bceab;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-shadow: 5px 5px 6px #000;
+        padding-top: 100px;
+
+        h1 {
+          font-size: 300px;
+          font-family: GillSans;
+        }
+
+        h2 {
+          font-size: 140px;
+          font-family: GillSans;
+        }
+      }
+    }
+  }
+
+  .galleryDetailDescription {
+    width: 980px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+    p {
+      width: 450px;
+      font-size: 16px;
+      font-family: GillSans;
+    }
+  }
+}

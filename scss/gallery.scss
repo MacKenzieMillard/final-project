@@ -1,0 +1,105 @@
+.gallery {
+  width: 980px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    width: 150px;
+    font-size: 25px;
+    font-family: GillSans;
+    border-bottom: solid 2px #000;
+    margin-bottom: 20px;
+  }
+
+  .galleryImages {
+    width: 980px;
+
+    .topImages {
+      width: 100%;
+      display: flex;
+      margin-bottom: 20px;
+
+      .firstGallery {
+        width: 490px;
+        height: 187px;
+        margin-right: 20px;
+        background-image: linear-gradient(
+            to right,
+            rgba(255, 209, 64, 0.7),
+            rgba(255, 209, 64, 0.7)
+          ),
+          url(../images/gallery/1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .secondGallery {
+        width: 187px;
+        height: 187px;
+        margin-right: 20px;
+        background-image: linear-gradient(
+            to right,
+            rgba(238, 67, 103, 0.7),
+            rgba(238, 67, 103, 0.7)
+          ),
+          url(../images/gallery/2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .thirdGallery {
+        width: 265px;
+        height: 187px;
+        background-image: linear-gradient(
+            to right,
+            rgba(8, 173, 105, 0.7),
+            rgba(8, 173, 105, 0.7)
+          ),
+          url(../images/gallery/3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    }
+
+    .bottomImages {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+
+      .fourthGallery {
+        width: 603px;
+        height: 306px;
+        margin-right: 23px;
+        background-image: linear-gradient(
+            to right,
+            rgba(84, 13, 110, 0.7),
+            rgba(84, 13, 110, 0.7)
+          ),
+          url(../images/gallery/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .fifthGallery {
+        width: 355px;
+        height: 306px;
+        background-image: linear-gradient(
+            to right,
+            rgba(59, 206, 171, 0.7),
+            rgba(59, 206, 171, 0.7)
+          ),
+          url(../images/gallery/5.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    }
+  }
+}
